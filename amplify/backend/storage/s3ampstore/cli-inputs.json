@@ -1,0 +1,13 @@
+{
+  "resourceName": "s3ampstore",
+  "policyUUID": "84cf54e1",
+  "bucketName": "s3ampstorebucket",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE"
+}

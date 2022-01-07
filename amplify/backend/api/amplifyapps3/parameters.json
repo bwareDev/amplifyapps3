@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "amplifyapps3",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authamplifyapps3",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2022-01-06T17:15:54.180Z"
+}
